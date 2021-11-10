@@ -1,0 +1,101 @@
+div{
+    outline:5px;
+    border:1px solid rgb(0, 0, 0);
+    padding:100px;
+    background-color: #fff;
+    height:600px;
+    animation: chuyennen 25s linear infinite;
+    display:flex;
+    flex-wrap: wrap;
+    }
+    #noidung{
+        font-size: 300%;
+        text-align: center;
+        animation: chuyenchu .6s linear infinite;
+    }
+    @keyframes chuyenchu {
+        from{
+            color:red;
+        }
+        to{
+            color:rgb(0, 17, 255);
+        }
+    }
+    @keyframes chuyennen {
+        0%{
+            background-color: rgb(255, 255, 255);
+        }
+        10%{
+            background-color: rgb(252, 104, 104);
+        }
+        20%{
+            background-color: rgb(255, 94, 0);
+        }
+        30%{
+            background-color: rgb(255, 238, 0);
+        }
+        40%{
+            background-color: rgb(102, 255, 0);
+        }
+        50%{
+            background-color: rgb(0, 255, 221);
+        }
+        60%{
+            background-color: rgb(0, 89, 255);
+        }
+        70%{
+            background-color: rgb(132, 0, 255);
+        }
+        80%{
+            background-color: rgb(255, 0, 221);
+        }
+        90%{
+            background-color: rgb(255, 0, 119);
+        }
+        100%{
+            background-color: rgb(255, 230, 0);
+        }
+    }
+    h1{
+        text-align: center;
+    }
+     li{
+         list-style-type: none;
+         width: 200px; 
+         height:300px;
+         background-color: rgb(247, 210, 0);
+         margin:10px;
+         border:1px solid black;
+         color:rgb(0, 0, 0);
+         border-radius:5px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     li:hover{
+         transform: scale(1.3);
+         z-index: 555;
+         transition: all .7s linear;
+         color:rgb(0, 17, 255);
+     }
+     img{
+         width:100%;
+         height:65%;
+     }
+     p{
+         margin:0px;
+         padding:0px;
+     }
+     .layout{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     }
+     button{
+         width:70%;
+         height:9%;
+         color:rgb(248, 248, 248);
+         border:1px solid rgb(243, 243, 247);
+         background-color: rgb(0, 59, 253);
+         border-radius:5px;
+     }
